@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.757407">
+<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite" time="2.998276">
+<system-out><![CDATA[Given User goes to SWAPI Website............................................passed
+When User calls GET API for "people" "2"....................................passed
+Then Response is successful and status code is 200..........................passed
+And Body is generated to view...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite 2" time="0.759131">
+<system-out><![CDATA[Given User goes to SWAPI Website............................................passed
+When User calls GET API for "people" "3"....................................passed
+Then Response is successful and status code is 200..........................passed
+And Body is generated to view...............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

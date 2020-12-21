@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Verify Multiple People on th SWAPI WebSite",
+        "description": "",
+        "id": "validate-multiple-people;verify-multiple-people-on-th-swapi-website;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 513802300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User goes to SWAPI Website",
+            "match": {
+              "location": "MultiplePeople.user_goes_to_swapi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2482898400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls GET API for \"people\" \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "people",
+                  "offset": 24
+                },
+                {
+                  "val": "2",
+                  "offset": 33
+                }
+              ],
+              "location": "MultiplePeople.user_calls_get_api_for_something_something(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1501500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response is successful and status code is 200",
+            "match": {
+              "location": "MultiplePeople.response_is_successful_and_status_code_is_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 74300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Body is generated to view",
+            "match": {
+              "location": "MultiplePeople.body_is_generated()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Verify Multiple People on th SWAPI WebSite",
+        "description": "",
+        "id": "validate-multiple-people;verify-multiple-people-on-th-swapi-website;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 242400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User goes to SWAPI Website",
+            "match": {
+              "location": "MultiplePeople.user_goes_to_swapi()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 758825200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User calls GET API for \"people\" \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "people",
+                  "offset": 24
+                },
+                {
+                  "val": "3",
+                  "offset": 33
+                }
+              ],
+              "location": "MultiplePeople.user_calls_get_api_for_something_something(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Response is successful and status code is 200",
+            "match": {
+              "location": "MultiplePeople.response_is_successful_and_status_code_is_200()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 39900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Body is generated to view",
+            "match": {
+              "location": "MultiplePeople.body_is_generated()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate Multiple People",
+    "description": "",
+    "id": "validate-multiple-people",
+    "keyword": "Feature",
+    "uri": "VerifyMultipleCharacters.feature"
+  }
+]
