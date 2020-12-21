@@ -1,14 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="3.757407">
-<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite" time="2.998276">
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="6.581954">
+<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite" time="3.372576">
 <system-out><![CDATA[Given User goes to SWAPI Website............................................passed
 When User calls GET API for "people" "2"....................................passed
 Then Response is successful and status code is 200..........................passed
 And Body is generated to view...............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite 2" time="0.759131">
+<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite 2" time="0.8006">
 <system-out><![CDATA[Given User goes to SWAPI Website............................................passed
 When User calls GET API for "people" "3"....................................passed
+Then Response is successful and status code is 200..........................passed
+And Body is generated to view...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite 3" time="0.719498">
+<system-out><![CDATA[Given User goes to SWAPI Website............................................passed
+When User calls GET API for "people" "4"....................................passed
+Then Response is successful and status code is 200..........................passed
+And Body is generated to view...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite 4" time="0.749022">
+<system-out><![CDATA[Given User goes to SWAPI Website............................................passed
+When User calls GET API for "planets" "2"...................................passed
+Then Response is successful and status code is 200..........................passed
+And Body is generated to view...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Validate Multiple People" name="Verify Multiple People on th SWAPI WebSite 5" time="0.940258">
+<system-out><![CDATA[Given User goes to SWAPI Website............................................passed
+When User calls GET API for "people" "1"....................................passed
 Then Response is successful and status code is 200..........................passed
 And Body is generated to view...............................................passed
 ]]></system-out>

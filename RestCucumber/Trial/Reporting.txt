@@ -1,5 +1,5 @@
 Request method:	GET
-Request URI:	https://swapi.dev/api/people/3/
+Request URI:	https://swapi.dev/api/people/1/
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -12,44 +12,44 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: nginx/1.16.1
-Date: Sun, 20 Dec 2020 16:45:47 GMT
+Date: Mon, 21 Dec 2020 15:51:31 GMT
 Content-Type: application/json
 Transfer-Encoding: chunked
 Connection: keep-alive
 Vary: Accept, Cookie
 X-Frame-Options: SAMEORIGIN
-ETag: "ea2c6a2503bc72743781e28d84961e0d"
+ETag: "bf44153838a0871ffc5cc3aaee8029d0"
 Allow: GET, HEAD, OPTIONS
 Strict-Transport-Security: max-age=15768000
 
 {
-    "name": "R2-D2",
-    "height": "96",
-    "mass": "32",
-    "hair_color": "n/a",
-    "skin_color": "white, blue",
-    "eye_color": "red",
-    "birth_year": "33BBY",
-    "gender": "n/a",
-    "homeworld": "http://swapi.dev/api/planets/8/",
+    "name": "Luke Skywalker",
+    "height": "172",
+    "mass": "77",
+    "hair_color": "blond",
+    "skin_color": "fair",
+    "eye_color": "blue",
+    "birth_year": "19BBY",
+    "gender": "male",
+    "homeworld": "http://swapi.dev/api/planets/1/",
     "films": [
         "http://swapi.dev/api/films/1/",
         "http://swapi.dev/api/films/2/",
         "http://swapi.dev/api/films/3/",
-        "http://swapi.dev/api/films/4/",
-        "http://swapi.dev/api/films/5/",
         "http://swapi.dev/api/films/6/"
     ],
     "species": [
-        "http://swapi.dev/api/species/2/"
+        
     ],
     "vehicles": [
-        
+        "http://swapi.dev/api/vehicles/14/",
+        "http://swapi.dev/api/vehicles/30/"
     ],
     "starships": [
-        
+        "http://swapi.dev/api/starships/12/",
+        "http://swapi.dev/api/starships/22/"
     ],
-    "created": "2014-12-10T15:11:50.376000Z",
-    "edited": "2014-12-20T21:17:50.311000Z",
-    "url": "http://swapi.dev/api/people/3/"
+    "created": "2014-12-09T13:50:51.644000Z",
+    "edited": "2014-12-20T21:17:56.891000Z",
+    "url": "http://swapi.dev/api/people/1/"
 }

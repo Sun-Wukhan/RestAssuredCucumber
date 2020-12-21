@@ -11,3 +11,6 @@ Feature: Validate Multiple People
     | allnoun | number |
     | people | 2    |
     | people | 3    |
+    | people | 4    |
+    | planets| 2    |
+    | people | 1    |
